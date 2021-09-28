@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffe600;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+}
+
+.img {
+  height: 100%;
+  vertical-align: center;
+  cursor: pointer;
+}
+
+.input::placeholder {
+  color: #999999;
+}
+
+.input {
+  padding-left: 10px;
+  height: 30px;
+  outline: none;
+  border: none;
+  width: 400px;
+  margin-left: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.btnSearch {
+  border: none;
+  height: 30px;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.btnSearch:active {
+  border: solid 2px black;
+}

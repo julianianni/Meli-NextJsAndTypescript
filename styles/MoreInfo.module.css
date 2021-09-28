@@ -1,0 +1,35 @@
+.mainContainer {
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rightTop {
+  padding-left: 50px;
+}
+
+.rightTop > p {
+  font-weight: 200;
+}
+
+.rightTop > h3 {
+  font-size: 30px;
+}
+.rightTop > button {
+  width: 200px;
+  height: 40px;
+  background-color: #3483fa;
+  color: white;
+  font-weight: 200;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.leftTop {
+  width: 680px;
+}
