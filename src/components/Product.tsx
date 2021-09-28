@@ -10,7 +10,7 @@ const Product = ({ product }) => {
     <div className={s.container}>
       <div className={s.imgContainer}>
         <Link href={`items/${product.id}`} passHref>
-          <Image className={s.img} src={thumbnail} alt={title} />
+          <img className={s.img} src={thumbnail} alt={title} />
         </Link>
       </div>
       <Link href={`items/${product.id}`} passHref>

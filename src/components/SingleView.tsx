@@ -21,7 +21,7 @@ const SingleView = ({ data, isLoading, isError }) => {
         <div className={s.topContainer}>
           <div className={s.leftTop}>
             <div>
-              <Image src={pictures[0].url} alt='foto' />
+              <img src={pictures[0].url} alt='foto' />
             </div>
           </div>
           <div className={s.rightTop}>

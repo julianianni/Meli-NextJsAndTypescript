@@ -31,7 +31,7 @@ const BoxSearch = () => {
     <div className={styles.container}>
       <div className={styles.imgcontainer}>
         <Link href='/' passHref>
-          <Image
+          <img
             className={styles.img}
             src='/assets/Logo_ML.png'
             alt='Meli-Logo'
@@ -47,7 +47,7 @@ const BoxSearch = () => {
           placeholder='Nunca dejes de buscar'
         />
         <button className={styles.btnSearch}>
-          <Image
+          <img
             className={styles.searcher}
             src='/assets/ic_Search.png'
             alt='lupa'
