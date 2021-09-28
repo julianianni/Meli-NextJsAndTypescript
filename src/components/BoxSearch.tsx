@@ -5,6 +5,7 @@ import { useQuery } from 'react-query'
 import { ProductsContext } from '../context/dataContext'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const BoxSearch = () => {
   const { fetchedProducts, setFetchedProducts } = useContext(ProductsContext)
@@ -29,8 +30,8 @@ const BoxSearch = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgcontainer}>
-        <Link href='/'>
-          <img
+        <Link href='/' passHref>
+          <Image
             className={styles.img}
             src='/assets/Logo_ML.png'
             alt='Meli-Logo'
@@ -46,7 +47,7 @@ const BoxSearch = () => {
           placeholder='Nunca dejes de buscar'
         />
         <button className={styles.btnSearch}>
-          <img
+          <Image
             className={styles.searcher}
             src='/assets/ic_Search.png'
             alt='lupa'

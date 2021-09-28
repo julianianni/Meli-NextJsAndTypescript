@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import s from '../../styles/MoreInfo.module.css'
+import Image from 'next/image'
 
 const SingleView = ({ data, isLoading, isError }) => {
   const router = useRouter()
@@ -20,7 +21,7 @@ const SingleView = ({ data, isLoading, isError }) => {
         <div className={s.topContainer}>
           <div className={s.leftTop}>
             <div>
-              <img src={pictures[0].url} alt='foto' />
+              <Image src={pictures[0].url} alt='foto' />
             </div>
           </div>
           <div className={s.rightTop}>
